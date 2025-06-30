@@ -19,7 +19,7 @@ function populate(size){
         square.addEventListener("mouseover", ()=>{
             square.style.background = getRandomHexColor()
         })
-        square.style.border = "1px solid black";
+        // square.style.border = "1px solid black";
         board.appendChild(square)
     }
 }
@@ -46,7 +46,7 @@ document.getElementById("create-sizes").addEventListener("click",
         const user_input = prompt("Enter size ")
 
         createSize(user_input)
-    
+
     }
 )
 
