@@ -9,8 +9,10 @@
     </head>
     <body>
         
+        
         <h1>Etch a Sketch</h1>
-        <h3>Enter a size on the bottom</h3>
+
+    
 
         <div class = "header">
             <button id = "create-sizes">Create Size</button>
@@ -18,8 +20,12 @@
   
         <div class = "container"></div>
 
-        <!-- <div class = "footer">
-            <button>Reset</button>
+        <div class = "footer">
+            
+            <button onclick = "resetBoard()">Reset</button>
+            <button onclick = 'getColor("white")'>Eraser</button>
+            <button onclick = "getColor('black')">Black</button>
+            <button onclick = "getColor('rainbow')">Rainbow</button>
 
-        </div> -->
+        </div>
     </body>
