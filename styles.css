@@ -6,8 +6,11 @@ body{
 
 }
 
+.title{
+    justify-content: center;
+    align-items: center;
+}
 .header{
-    gap: 30px;   
     justify-content: center;
     align-items: center;
     
